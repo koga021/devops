@@ -1,0 +1,8 @@
+---
+
+name: "Init Template"
+template_dir: "template"
+
+questions:
+ - question_file: "questions.yaml"
+ - template_files: ["config.yaml"]
