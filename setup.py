@@ -9,6 +9,7 @@ setup(name='devops',
       author='Douglas de Araujo Silva Ribas',
       author_email='ribas.douglas@gmail.com',
       license='MIT',
-      packages=['devops'],
+      packages=['devops','jinja2','argparse'],
       scripts=['bin/devops'],
+      entry_points={'console_scripts': ['devops = devops:main']},
       zip_safe=False)

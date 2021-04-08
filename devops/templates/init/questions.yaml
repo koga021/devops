@@ -1,0 +1,24 @@
+---
+kind: questions
+
+questions:
+- question: 'What Name of Project?'
+  data_name: appName
+  param: ['--appName','-an']
+  item_null: false
+  
+- question: 'What your login?'
+  data_name: login
+  param: ['--login']
+  item_null: false
+
+- question: 'What your email?'
+  data_name: email
+  param: ['--email','-em']
+  item_null: false
+
+- question: 'what your time?'
+  data_name: time
+  args: ['--appTime']
+  item_null: false
+
