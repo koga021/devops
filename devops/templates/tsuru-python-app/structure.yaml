@@ -1,0 +1,13 @@
+---
+kind: structure
+
+directory:
+- name: 'Create App folder'
+  value: app
+  
+- name: 'Create static folder'
+  value: 'app/static'
+
+- name: 'gcr.io/cloud-builders/kubectl'
+  args: ['set', 'image', 'deployment/my-deployment', 'my-container=gcr.io/my-project/my-image']
+  
