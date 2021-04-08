@@ -10,4 +10,5 @@ setup(name='devops',
       author_email='ribas.douglas@gmail.com',
       license='MIT',
       packages=['devops'],
+      scripts=['bin/devops'],
       zip_safe=False)
